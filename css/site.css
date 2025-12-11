@@ -1,0 +1,75 @@
+/* CSS Document - core components  */
+body {
+    width: 375px;
+    background-color: hsl(212, 45%, 89%);
+    height: 499px;
+    font-size: 15px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-left: 60px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+/* CSS Document - classes  */
+
+.card {
+    padding: 16px, 16px, 40px, 16px;
+    margin: 16px;
+    border-radius: 24px;
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 499px;
+    position: relative;
+    left: 60px;
+    top: 300px;
+}
+
+.img-sect img {
+    width: 288px;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.qr-content {
+    width: 288;
+    height: 131px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 16px;
+}
+
+/* CSS Document - ID's   */
+
+#heading {
+    color: hsl(218, 44%, 22%);
+    width: 256px;
+    height: 52px;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 30px;
+}
+
+#info {
+    color: hsl(218, 44%, 22%);
+    width: 256px;
+    height: 63px;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+
+/* CSS Document - Media Queries  */
+@media (max-width: 1440px) and (max-height: 960px) {
+  /* … */
+  body {
+    width: 1440px;
+    height: 960px;
+  }
+  .img-sect img {
+    margin-left: padding-left: 200px;
+  }
+}
