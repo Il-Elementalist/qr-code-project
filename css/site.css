@@ -63,13 +63,17 @@ footer {
 }
 
 /* CSS Document - Media Queries  */
-@media (max-width: 1440px) and (max-height: 960px) {
-  /* … */
-  body {
-    width: 1440px;
-    height: 960px;
-  }
-  .img-sect img {
-    padding-left: 17px;
-  }
+@media only screen and (min-width: 1000px) {
+    .card {
+        position: relative;
+        left: 750px;
+        top: 200px;
+    }
+
+    .attribution {
+        position: relative;
+        left: 700px;
+        bottom: -250px;
+    }
 }
+    
